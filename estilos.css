@@ -1,0 +1,283 @@
+/*  Reseteo de modelo de cajas  */
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'IBM Plex Sans',Arial,sans-serif;
+    font-weight: 400;
+    font-weight: 400;
+    font-size: 18px;
+    color: #4a4a4a;
+    background-color: #fff;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.header {
+
+    width: 90%;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    width: 70%;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+
+
+nav > ul > li {
+     display: inline-block;
+    text-align: center;
+    margin: 40px;
+    font-family: "sans serif";
+    font-size: 18px; 
+
+    
+    
+
+}
+
+nav > ul > li > a{
+    text-decoration: none;
+    color: #025157;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+}
+
+.actions > * {
+    padding: 10px;
+}
+
+
+
+#logo {
+    width: 15%;
+}
+
+
+.actions > a {
+    color: #025157;
+}
+
+.btn {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1em;
+    padding: 15px 20px;
+    text-align: center;
+    color: #fff;
+    background: #025157;
+    border-radius: 8px;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+
+.row{
+    display: flex;
+    margin: 40px;
+    justify-content: center;
+    padding: 50px;
+    
+    
+}
+.left{
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#texto{
+    line-height: 1.6em;
+}
+
+#titulo{
+    
+
+    font-family: vesterbroextrabold;
+    font-weight: 400px;
+    line-height: 63px;
+    font-size: 68px;
+    text-align: left;
+    letter-spacing: -3px;
+    color: #025157;
+    max-width: 560px;
+    margin-bottom: 24px;
+}
+
+.sign{
+    display: flex;
+    text-align: left;
+    width: 100%;
+    width: 336px;
+    padding-top: 30px;
+    justify-content: space-between;
+    
+   
+}
+
+.btn2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1em;
+    padding: 15px 20px;
+    text-align: center;
+    color: #fff;
+    background: #67b54b;
+    border-radius: 8px;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+
+.sign_text{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 160%;
+    text-align: left;
+    letter-spacing: -.5px;
+    color: rgba(139,139,139,.8);
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+.logos{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.sect{
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1.4px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    opacity: .4;
+}
+
+
+.logos__img {
+    margin-right: 60px;
+    display: inline-flex;
+}
+
+
+
+
+
+.headalt {
+    font-size: 55px;
+    font-weight: 700;
+    color: #025157;
+    letter-spacing: -3px;
+    font-family: vesterbroextrabold;
+    font-weight: 400px;
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.container{
+    margin-bottom: 400px;
+}
+
+.col-md-4{
+    
+    position: relative;
+    width: 100%;
+    
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+    
+    
+}
+
+.feature_img {
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    border-radius: 9px;
+    display: inline-block;
+    border: 1px solid #dadada;
+    box-shadow: 0 8px 24px rgba(0,0,0,.1);
+    margin-bottom: 30px;
+    width: 100%;
+    
+}
+
+.feature__title {
+    text-decoration: none;
+    color: #343434;
+    
+    transition: all .2s ease-in-out;
+    margin-bottom: 40px;
+}
+
+.feature_title {
+    font-weight: 500;
+    font-size: 24px;
+    font-family: 'IBM Plex Sans',Arial,sans-serif;
+    margin-bottom: 20px;
+}
+.imgs{
+ width: 500px;
+ height: 300px;
+}
+
+@media (max-width: 1400px){
+
+    .nav {
+    display: none;
+  }
+ 
+}
+
+@media (max-width: 1000px){
+    body{
+        background-color: burlywood;
+    }
+
+
+    .row{
+        display: grid;
+        grid-template-columns: 1;
+        grid-auto-rows: minmax(50pxpx, auto);
+        grid-gap: 30px;
+    }
+
+
+}
+    
