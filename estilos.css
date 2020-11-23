@@ -1,89 +1,25 @@
-/*  Reseteo de modelo de cajas  */
-
-a:link, a:visited, a:active {
-    text-decoration:none;
-}
-
-*{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'IBM Plex Sans',Arial,sans-serif;
-    font-weight: 400;
-    font-weight: 400;
-    font-size: 18px;
-    color: #4a4a4a;
-    background-color: #fff;
-}
-
-header {
-    height: 100px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-
-}
-
-.header {
-
-    width: 90%;
-    margin: 0 auto;
-}
-
-nav {
-    display: flex;
-    width: 70%;
-    align-items: center;
-    justify-content: space-around;
-    
-}
-
-
-
-nav > ul > li {
-     display: inline-block;
+.navbar {
     text-align: center;
-    margin: 40px;
-    font-family: "sans serif";
-    font-size: 18px; 
-
-    
-    
-
-}
-
-nav > ul > li > a{
-    text-decoration: none;
     color: #025157;
-}
+    font-weight: 500;
+    margin-top: 50px;
+    
+/*     background-color: black;
+ */ }
+ .img{
+     margin-right: 50px;
+     margin-left: 100px;
+ }
 
-.actions {
-    display: flex;
-    justify-content: space-between;
-    width: 15%;
-}
-
-.actions > * {
-    padding: 10px;
-}
-
-
-
-#logo {
-    width: 15%;
-}
-
-
-.actions > a {
+ .nav-item{
+     margin: 15px;
+     
+ }
+ .nav-link{
     color: #025157;
-}
+ }
 
-.btn {
+ .btn-beefy {
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
@@ -96,24 +32,8 @@ nav > ul > li > a{
     -webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
 }
-
-
-.row{
-    display: flex;
-    margin: 40px;
-    justify-content: center;
-    padding: 50px;
-    
-    
-}
-.left{
-    text-align: center;
-    display: flex;
-    align-items: center;
-}
-
-#texto{
-    line-height: 1.6em;
+#get{
+    margin-top: 12px;
 }
 
 #titulo{
@@ -130,15 +50,9 @@ nav > ul > li > a{
     margin-bottom: 24px;
 }
 
-.sign{
-    display: flex;
-    text-align: left;
-    width: 100%;
-    width: 336px;
-    padding-top: 30px;
-    justify-content: space-between;
-    
-   
+#gris{
+    color: #46484c;
+    line-height: 1.6em;
 }
 
 .btn2 {
@@ -151,28 +65,29 @@ nav > ul > li > a{
     color: #fff;
     background: #67b54b;
     border-radius: 8px;
-    -webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
+    margin-right: 20px;
 }
 
+#shop{
+    margin-top: 45px;
+    margin-bottom: 15px;
+}
 
-.sign_text{
+#sign_text{
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 160%;
-    text-align: left;
-    letter-spacing: -.5px;
-    color: rgba(139,139,139,.8);
-    margin-bottom: 0;
-    margin-top: 15px;
+    opacity: .4;
+    color:  rgba(139,139,139,.8);
 }
 
-.logos{
-    margin-top: 60px;
-    margin-bottom: 60px;
-    text-align: center;
+#hhh{
+    margin-top: 100px;
 }
+
+
 
 .sect{
     text-transform: uppercase;
@@ -186,12 +101,8 @@ nav > ul > li > a{
 
 .logos__img {
     margin-right: 60px;
-    display: inline-flex;
+   
 }
-
-
-
-
 
 .headalt {
     font-size: 55px;
@@ -200,6 +111,7 @@ nav > ul > li > a{
     letter-spacing: -3px;
     font-family: vesterbroextrabold;
     font-weight: 400px;
+    margin-top: 300px;
 }
 
 .head{
@@ -208,76 +120,112 @@ nav > ul > li > a{
     margin-bottom: 50px;
 }
 
-.container{
-    margin-bottom: 400px;
+.figure{
+    margin: 20px;
+}
+.h5{
+    line-height: 1.5em;
+    color: #212529;
+    margin-top: 20px;
+}
+.h3{
+    margin-top: 20px;
+}
+#www{
+   display: flex;
+   justify-content: space-around;
+   margin-left: 100px;
+   margin-right: 100px;
+   font-size: large;
+}
+.mt-4{
+    color: #7e7e7e;;
+}
+.h2{
+    font-size: 55px;
+    font-weight: 700;
+    color: #025157;
+    letter-spacing: -3px;
+    font-family: vesterbroextrabold;
+    font-weight: 400px;
+    margin-top: 250px;
+}
+.header--alt {
+    font-size: 55px;
+    font-weight: 700;
+    color: #025157;
+    letter-spacing: -3px;
+    font-family: vesterbroextrabold;
+    font-weight: 400px;
 }
 
-.col-md-4{
-    
-    position: relative;
-    width: 100%;
-    
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
-
-    
+.carousel-inner{
+    margin-left: 150px;
+    width: 400px;
     
 }
-
-.feature_img {
-    overflow: hidden;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    border-radius: 9px;
-    display: inline-block;
-    border: 1px solid #dadada;
-    box-shadow: 0 8px 24px rgba(0,0,0,.1);
-    margin-bottom: 30px;
-    width: 100%;
-    
+.rrr{
+    margin-left: 10px;
+    margin-right:100px;
 }
-
-.feature__title {
-    text-decoration: none;
-    color: #343434;
-    
-    transition: all .2s ease-in-out;
-    margin-bottom: 40px;
+.card-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    color: #025157;
 }
-
-.feature_title {
-    font-weight: 500;
-    font-size: 24px;
-    font-family: 'IBM Plex Sans',Arial,sans-serif;
+.customer-title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    color: #000;
     margin-bottom: 20px;
 }
-.imgs{
- width: 500px;
- height: 300px;
+.card-results-text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 19px;
+    letter-spacing: -.5px;
+    color: #828282;
+    margin-right: 20px;
 }
-
-@media (max-width: 1400px){
-
-    .nav {
-    display: none;
-  }
- 
+#Cart{
+    width: 26px;
+    height: 26px;
 }
-
-@media (max-width: 1000px){
-    body{
-        background-color: burlywood;
-    }
-
-
-    .row{
-        display: grid;
-        grid-template-columns: 1;
-        grid-auto-rows: minmax(50pxpx, auto);
-        grid-gap: 30px;
-    }
-
-
-}
+.carousel-item{
+    padding: 20px;
     
+}
+
+.customer-cs-btn.btn {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    background: #025157;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-size: 13px;
+    text-align: center;
+    color: #fff;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.ggg{
+    margin-top: 200px;
+}
+.rrr{
+    margin-top: 100px;
+    margin-left: 20px;
+}
+.kkk{
+    color: #4a4a4a;
+    font-size: larger;
+}
